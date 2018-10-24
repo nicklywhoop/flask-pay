@@ -1,6 +1,6 @@
 from . import ApiRessource
 
 class LedgerHandler(ApiRessource):
-    def get(self, invoice_id=None):
+    def get(self, currency=None):
 
         return {'hello': 'world'}

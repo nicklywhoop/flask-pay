@@ -1,6 +1,6 @@
 from . import ApiRessource
 
 class TokenHandler(ApiRessource):
-    def get(self, invoice_id=None):
+    def get(self):
 
         return {'hello': 'world'}

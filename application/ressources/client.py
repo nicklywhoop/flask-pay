@@ -1,6 +1,6 @@
 from . import ApiRessource
 
 class ClientHandler(ApiRessource):
-    def get(self, invoice_id=None):
+    def get(self, key_id=None):
 
         return {'hello': 'world'}
